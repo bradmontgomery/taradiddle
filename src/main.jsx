@@ -16,29 +16,29 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/taradiddle/',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        path: '/app',
+        path: 'app',
         element: <App />
       },
       {
-        path: '/clock',
+        path: 'clock',
         element: <Clock />
       },
       {
-        path: '/namepicker',
+        path: 'namepicker',
         element: <NamePicker />
       },
       {
-        path: '/apifetcher',
+        path: 'apifetcher',
         element: <ApiFetcher />
       },
       {
-        path: '/names',
+        path: 'names',
         element: <Names />
       }
     ]
