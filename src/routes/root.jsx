@@ -5,12 +5,12 @@ export default function Root() {
         <div>
             <nav>
                 <p>
-                    <a href="/">Home</a>
-                    <Link to={`app`}>App</Link>
-                    <Link to={`clock`}>Clock</Link>
-                    <Link to={`namepicker`}>Name Picker</Link>
-                    <Link to={`apifetcher`}>API Fetcher</Link>
-                    <Link to={`names`}>Names</Link>
+                    <a href="/taradiddle/">Home</a>
+                    <Link to={`/taradiddle/app`}>App</Link>
+                    <Link to={`/taradiddle/clock`}>Clock</Link>
+                    <Link to={`/taradiddle/namepicker`}>Name Picker</Link>
+                    <Link to={`/taradiddle/apifetcher`}>API Fetcher</Link>
+                    <Link to={`/taradiddle/names`}>Names</Link>
                 </p>
             </nav>
             <hr />
